@@ -26,11 +26,11 @@ const orderSchema = mongoose.Schema(
       postalCode: { type: String, required: true },
       country: { type: String, required: true },
     },
-    padmentMethod: {
+    paymentMethod: {
       type: String,
       required: true,
     },
-    padmentResult: {
+    paymentResult: {
       id: { type: String },
       status: { type: String },
       update_time: { type: String },
